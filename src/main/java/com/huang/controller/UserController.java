@@ -1,7 +1,9 @@
 package com.huang.controller;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RestController;
 
+@EnableAutoConfiguration
 @RestController
 public class UserController {
   //  @Autowired UserMapper userMapper;
